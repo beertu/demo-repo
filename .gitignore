@@ -1,0 +1,11 @@
+/target/
+/bin/
+/test-output/
+.classpath
+ExecutionLog.log
+ExtentReports/summaryReport.html
+ExecutionLog.log
+*.log
+.project
+
+

@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\Program Files\\Java\\jdk-23",
+        "MAVEN_HOME": "C:\\Maven\\apache-maven-3.9.11",
+        "PATH": "${env:PATH};${env:JAVA_HOME}\\bin;${env:MAVEN_HOME}\\bin"
+    },
+    "java.configuration.runtimes": [{
+        "name": "JavaSE-23",
+        "path": "C:\\Program Files\\Java\\jdk-23",
+        "default": true
+    }],
+    "maven.terminal.customEnv": [{
+        "environmentVariable": "JAVA_HOME",
+        "value": "C:\\Program Files\\Java\\jdk-23"
+    }]
+}
